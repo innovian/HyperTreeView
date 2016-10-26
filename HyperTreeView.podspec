@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HyperTreeView'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A lightweight customizable and easy to use tree view, useful for visualizing hierarchical structures.'
 
 # This description is used to generate tags and improve search results.
