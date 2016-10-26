@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		037DC8D41DC0CC1100AA4FD4 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 037DC8CC1DC0CC1100AA4FD4 /* 1.jpg */; };
+		037DC8D51DC0CC1100AA4FD4 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 037DC8CD1DC0CC1100AA4FD4 /* 2.jpg */; };
+		037DC8D61DC0CC1100AA4FD4 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 037DC8CE1DC0CC1100AA4FD4 /* 3.jpg */; };
+		037DC8D71DC0CC1100AA4FD4 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 037DC8CF1DC0CC1100AA4FD4 /* 4.jpg */; };
+		037DC8D81DC0CC1100AA4FD4 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 037DC8D01DC0CC1100AA4FD4 /* 5.jpg */; };
+		037DC8D91DC0CC1100AA4FD4 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 037DC8D11DC0CC1100AA4FD4 /* 6.jpg */; };
+		037DC8DA1DC0CC1100AA4FD4 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 037DC8D21DC0CC1100AA4FD4 /* 7.jpg */; };
+		037DC8DB1DC0CC1100AA4FD4 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 037DC8D31DC0CC1100AA4FD4 /* 8.jpg */; };
+		037DC8DF1DC0CD5300AA4FD4 /* MySampleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 037DC8DE1DC0CD5300AA4FD4 /* MySampleView.m */; };
+		037DC8F01DC0CDF100AA4FD4 /* helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 037DC8E91DC0CDF100AA4FD4 /* helper.m */; };
+		037DC8F11DC0CDF100AA4FD4 /* UIView+SDCAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 037DC8EB1DC0CDF100AA4FD4 /* UIView+SDCAutoLayout.m */; };
+		037DC8F21DC0CDF100AA4FD4 /* NSObject+jsonDic.m in Sources */ = {isa = PBXBuildFile; fileRef = 037DC8ED1DC0CDF100AA4FD4 /* NSObject+jsonDic.m */; };
+		037DC8F31DC0CDF100AA4FD4 /* NSObject+jsonStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 037DC8EF1DC0CDF100AA4FD4 /* NSObject+jsonStr.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -20,7 +33,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		70DFABF232ECB5F0EF6C59CC /* Pods_HyperTreeView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D991AF3ED417D8FD2C1C23 /* Pods_HyperTreeView_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B2DDB2702F8A718DCFE97966 /* Pods_HyperTreeView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF4C9B5E012386A1A1BCDE4A /* Pods_HyperTreeView_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,8 +49,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		037DC8CC1DC0CC1100AA4FD4 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		037DC8CD1DC0CC1100AA4FD4 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		037DC8CE1DC0CC1100AA4FD4 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		037DC8CF1DC0CC1100AA4FD4 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		037DC8D01DC0CC1100AA4FD4 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		037DC8D11DC0CC1100AA4FD4 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		037DC8D21DC0CC1100AA4FD4 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		037DC8D31DC0CC1100AA4FD4 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		037DC8DD1DC0CD5300AA4FD4 /* MySampleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySampleView.h; sourceTree = "<group>"; };
+		037DC8DE1DC0CD5300AA4FD4 /* MySampleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MySampleView.m; sourceTree = "<group>"; };
+		037DC8E81DC0CDF100AA4FD4 /* helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = helper.h; sourceTree = "<group>"; };
+		037DC8E91DC0CDF100AA4FD4 /* helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = helper.m; sourceTree = "<group>"; };
+		037DC8EA1DC0CDF100AA4FD4 /* UIView+SDCAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SDCAutoLayout.h"; sourceTree = "<group>"; };
+		037DC8EB1DC0CDF100AA4FD4 /* UIView+SDCAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDCAutoLayout.m"; sourceTree = "<group>"; };
+		037DC8EC1DC0CDF100AA4FD4 /* NSObject+jsonDic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+jsonDic.h"; sourceTree = "<group>"; };
+		037DC8ED1DC0CDF100AA4FD4 /* NSObject+jsonDic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+jsonDic.m"; sourceTree = "<group>"; };
+		037DC8EE1DC0CDF100AA4FD4 /* NSObject+jsonStr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+jsonStr.h"; sourceTree = "<group>"; };
+		037DC8EF1DC0CDF100AA4FD4 /* NSObject+jsonStr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+jsonStr.m"; sourceTree = "<group>"; };
 		0F5723E0763509B60B9C5B8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		592ADF36A7DC88C9810E45B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		210D98129ED9F83B505474E7 /* Pods-HyperTreeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperTreeView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HyperTreeView_Example/Pods-HyperTreeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4495A2E5C8BAC9C6B4063636 /* Pods-HyperTreeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperTreeView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HyperTreeView_Tests/Pods-HyperTreeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		592ADF36A7DC88C9810E45B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HyperTreeView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperTreeView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -56,7 +91,11 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		DE04E6A730C3F3B9C4F8B4D2 /* HyperTreeView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = HyperTreeView.podspec; path = ../HyperTreeView.podspec; sourceTree = "<group>"; };
+		B16FAEEA6D03B3C102FB8CDC /* Pods-HyperTreeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperTreeView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HyperTreeView_Example/Pods-HyperTreeView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CF4C9B5E012386A1A1BCDE4A /* Pods_HyperTreeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperTreeView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D991AF3ED417D8FD2C1C23 /* Pods_HyperTreeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperTreeView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8CD1A2FBC50396FBCAB4D54 /* Pods-HyperTreeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperTreeView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HyperTreeView_Tests/Pods-HyperTreeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DE04E6A730C3F3B9C4F8B4D2 /* HyperTreeView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HyperTreeView.podspec; path = ../HyperTreeView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +106,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				70DFABF232ECB5F0EF6C59CC /* Pods_HyperTreeView_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,12 +117,43 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+				B2DDB2702F8A718DCFE97966 /* Pods_HyperTreeView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		037DC8DC1DC0CC1700AA4FD4 /* images (subject to copyright) */ = {
+			isa = PBXGroup;
+			children = (
+				037DC8CC1DC0CC1100AA4FD4 /* 1.jpg */,
+				037DC8CD1DC0CC1100AA4FD4 /* 2.jpg */,
+				037DC8CE1DC0CC1100AA4FD4 /* 3.jpg */,
+				037DC8CF1DC0CC1100AA4FD4 /* 4.jpg */,
+				037DC8D01DC0CC1100AA4FD4 /* 5.jpg */,
+				037DC8D11DC0CC1100AA4FD4 /* 6.jpg */,
+				037DC8D21DC0CC1100AA4FD4 /* 7.jpg */,
+				037DC8D31DC0CC1100AA4FD4 /* 8.jpg */,
+			);
+			name = "images (subject to copyright)";
+			sourceTree = "<group>";
+		};
+		037DC8F41DC0CDF500AA4FD4 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				037DC8E81DC0CDF100AA4FD4 /* helper.h */,
+				037DC8E91DC0CDF100AA4FD4 /* helper.m */,
+				037DC8EA1DC0CDF100AA4FD4 /* UIView+SDCAutoLayout.h */,
+				037DC8EB1DC0CDF100AA4FD4 /* UIView+SDCAutoLayout.m */,
+				037DC8EC1DC0CDF100AA4FD4 /* NSObject+jsonDic.h */,
+				037DC8ED1DC0CDF100AA4FD4 /* NSObject+jsonDic.m */,
+				037DC8EE1DC0CDF100AA4FD4 /* NSObject+jsonStr.h */,
+				037DC8EF1DC0CDF100AA4FD4 /* NSObject+jsonStr.m */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +162,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
+				692DF697A74F671DF9B521C7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +182,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
+				D3D991AF3ED417D8FD2C1C23 /* Pods_HyperTreeView_Example.framework */,
+				CF4C9B5E012386A1A1BCDE4A /* Pods_HyperTreeView_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -123,6 +197,10 @@
 				6003F5A5195388D20070C39A /* exampleViewController.h */,
 				6003F5A6195388D20070C39A /* exampleViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				037DC8DD1DC0CD5300AA4FD4 /* MySampleView.h */,
+				037DC8DE1DC0CD5300AA4FD4 /* MySampleView.m */,
+				037DC8F41DC0CDF500AA4FD4 /* other */,
+				037DC8DC1DC0CC1700AA4FD4 /* images (subject to copyright) */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for HyperTreeView";
@@ -169,6 +247,17 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		692DF697A74F671DF9B521C7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				210D98129ED9F83B505474E7 /* Pods-HyperTreeView_Example.debug.xcconfig */,
+				B16FAEEA6D03B3C102FB8CDC /* Pods-HyperTreeView_Example.release.xcconfig */,
+				4495A2E5C8BAC9C6B4063636 /* Pods-HyperTreeView_Tests.debug.xcconfig */,
+				D8CD1A2FBC50396FBCAB4D54 /* Pods-HyperTreeView_Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -176,9 +265,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "HyperTreeView_Example" */;
 			buildPhases = (
+				D9878044201A23CA2FDE61A4 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
+				0182FA91D1B94063927CCC90 /* [CP] Embed Pods Frameworks */,
+				733224A5A130DED2AC3AEC15 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,9 +285,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "HyperTreeView_Tests" */;
 			buildPhases = (
+				DED0C45D14EFCCDB92341119 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				68E0F18D2FBA98DB148000E1 /* [CP] Embed Pods Frameworks */,
+				641E54624C206C5CA6B7526A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,7 +317,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "HyperTreeView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -246,7 +341,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				037DC8DB1DC0CC1100AA4FD4 /* 8.jpg in Resources */,
+				037DC8D91DC0CC1100AA4FD4 /* 6.jpg in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				037DC8D81DC0CC1100AA4FD4 /* 5.jpg in Resources */,
+				037DC8D71DC0CC1100AA4FD4 /* 4.jpg in Resources */,
+				037DC8D41DC0CC1100AA4FD4 /* 1.jpg in Resources */,
+				037DC8D51DC0CC1100AA4FD4 /* 2.jpg in Resources */,
+				037DC8D61DC0CC1100AA4FD4 /* 3.jpg in Resources */,
+				037DC8DA1DC0CC1100AA4FD4 /* 7.jpg in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -262,13 +365,111 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0182FA91D1B94063927CCC90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyperTreeView_Example/Pods-HyperTreeView_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		641E54624C206C5CA6B7526A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyperTreeView_Tests/Pods-HyperTreeView_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68E0F18D2FBA98DB148000E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyperTreeView_Tests/Pods-HyperTreeView_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		733224A5A130DED2AC3AEC15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HyperTreeView_Example/Pods-HyperTreeView_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9878044201A23CA2FDE61A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DED0C45D14EFCCDB92341119 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6003F586195388D20070C39A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				037DC8DF1DC0CD5300AA4FD4 /* MySampleView.m in Sources */,
 				6003F59E195388D20070C39A /* exampleAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* exampleViewController.m in Sources */,
+				037DC8F31DC0CDF100AA4FD4 /* NSObject+jsonStr.m in Sources */,
+				037DC8F21DC0CDF100AA4FD4 /* NSObject+jsonDic.m in Sources */,
+				037DC8F01DC0CDF100AA4FD4 /* helper.m in Sources */,
+				037DC8F11DC0CDF100AA4FD4 /* UIView+SDCAutoLayout.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -386,6 +587,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 210D98129ED9F83B505474E7 /* Pods-HyperTreeView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -401,6 +603,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B16FAEEA6D03B3C102FB8CDC /* Pods-HyperTreeView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -416,6 +619,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4495A2E5C8BAC9C6B4063636 /* Pods-HyperTreeView_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -439,6 +643,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CD1A2FBC50396FBCAB4D54 /* Pods-HyperTreeView_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -459,7 +664,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "PROJECT" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "HyperTreeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,

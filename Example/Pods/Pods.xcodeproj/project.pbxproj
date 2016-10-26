@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06B8ADD3EF18012106DBCF54A789C1A4 /* HyperTreeViewNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 1540166C66E44141F8576777BC2CC823 /* HyperTreeViewNode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1076AEEBEEDDCD81FB3BF2C66F3A5853 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1440BF8B4611BFCCE63D9C3D4FC9E097 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		2FA6BBD0740CAD349E82CF58BDCB6713 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		3E8FFB2D88F922336B7F23706FB0EA37 /* HyperTreeViewNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A1775589B3E47CF5F99D98DAA4D76CF8 /* HyperTreeViewNode.m */; };
+		7CA34E2B3CAD3621BF3AF495400AC04A /* HyperTreeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BA49784E6F1290DF8482725FFE09E6B /* HyperTreeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9272B96CE531EC2D9C6EC6D44894D21A /* HyperTreeView.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1DE4FB0D3B74896C2E7C10FB1A2D07 /* HyperTreeView.m */; };
+		987849EF31B01ABC247EFF3994A955AE /* Pods-HyperTreeView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C8ABEEA81D0FCF38C5732C2B97813A6F /* Pods-HyperTreeView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5BB94362E99DBCD54E9CF9169FB7A76 /* HyperTreeView.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E4DDF9312F319072D164BC0E1FC13A /* HyperTreeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFDADD24C92C3F2B898BC27A16FAD1D3 /* HyperTreeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA75BEB60745B2A42739320F717DCD4 /* HyperTreeView-dummy.m */; };
+		CC524F2CC2DC713A3FA9AD4B25A86D0A /* Pods-HyperTreeView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 44DB9264FA62106ECF5A16BFDCF4BC71 /* Pods-HyperTreeView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D705B85BB25F594E06C165F862AE818B /* Pods-HyperTreeView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E3438E922541B19192704C28EF490FFF /* Pods-HyperTreeView_Tests-dummy.m */; };
+		FC6C67E383F3AC0A62057E3DC1B46773 /* Pods-HyperTreeView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 055E2EB1763D1F4BE9FA2A6096EF85CE /* Pods-HyperTreeView_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD49AA31F77061BB414570D206D92C3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFBD9D1B36AE492A74B8DBE066B2EF3B;
+			remoteInfo = HyperTreeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		055E2EB1763D1F4BE9FA2A6096EF85CE /* Pods-HyperTreeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HyperTreeView_Example-dummy.m"; sourceTree = "<group>"; };
+		0EC28429FFF63326CC0DA334EE52B1C1 /* HyperTreeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HyperTreeView.xcconfig; sourceTree = "<group>"; };
+		1540166C66E44141F8576777BC2CC823 /* HyperTreeViewNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HyperTreeViewNode.h; sourceTree = "<group>"; };
+		19F8B7E2AA0C35D11222650189F54D48 /* Pods-HyperTreeView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HyperTreeView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1FD9A9996D09F9FE3E82C557DDC49013 /* Pods-HyperTreeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperTreeView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		253EE304C99E07888E3B4831799C72E1 /* HyperTreeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HyperTreeView.modulemap; sourceTree = "<group>"; };
+		31E320814125FC2B0A061D4441577722 /* Pods-HyperTreeView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HyperTreeView_Example.modulemap"; sourceTree = "<group>"; };
+		3DA75BEB60745B2A42739320F717DCD4 /* HyperTreeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HyperTreeView-dummy.m"; sourceTree = "<group>"; };
+		4456078A4C6106D176CCB26EDC7E16CC /* Pods-HyperTreeView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperTreeView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		44DB9264FA62106ECF5A16BFDCF4BC71 /* Pods-HyperTreeView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HyperTreeView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		478761C58C07CDE2305950CB7B489A48 /* Pods-HyperTreeView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HyperTreeView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4F0E018854337B0E726595CBF9DFD3EE /* Pods-HyperTreeView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperTreeView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		56EDBE96286D700726FAD62B8764478A /* Pods-HyperTreeView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperTreeView_Tests-resources.sh"; sourceTree = "<group>"; };
+		5BD1C319B3F6BDA65DB94CC5EA236205 /* Pods-HyperTreeView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperTreeView_Example-resources.sh"; sourceTree = "<group>"; };
+		5C4930BAD01633DADFA696B49254E80E /* HyperTreeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HyperTreeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68661447FB60D086B325685A47A1D208 /* HyperTreeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HyperTreeView-prefix.pch"; sourceTree = "<group>"; };
+		749B6EDCA27C57C050F7CF91C20DB6E7 /* Pods_HyperTreeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperTreeView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B7CC0A9C6A71DEA65E6C5AE2DE57F7D /* Pods-HyperTreeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperTreeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8ABAF5E8D5B073F3C3605DF99F31CD68 /* Pods-HyperTreeView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HyperTreeView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8B61A774812ACA390A9C9C02911AD988 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BA49784E6F1290DF8482725FFE09E6B /* HyperTreeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HyperTreeView-umbrella.h"; sourceTree = "<group>"; };
+		902219B34C3E5C5DB0A5D54E4DE3A38B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		98F695C7AB8224AB92F9DAB2C3C37FEA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1775589B3E47CF5F99D98DAA4D76CF8 /* HyperTreeViewNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HyperTreeViewNode.m; sourceTree = "<group>"; };
+		AB4786EC086886562E24E5BFF95F5EEE /* Pods-HyperTreeView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HyperTreeView_Tests.modulemap"; sourceTree = "<group>"; };
+		BB1DE4FB0D3B74896C2E7C10FB1A2D07 /* HyperTreeView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HyperTreeView.m; sourceTree = "<group>"; };
+		C8ABEEA81D0FCF38C5732C2B97813A6F /* Pods-HyperTreeView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HyperTreeView_Example-umbrella.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D72C391633C4990553238548ED42CD53 /* Pods-HyperTreeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperTreeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E3438E922541B19192704C28EF490FFF /* Pods-HyperTreeView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HyperTreeView_Tests-dummy.m"; sourceTree = "<group>"; };
+		F5E4DDF9312F319072D164BC0E1FC13A /* HyperTreeView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HyperTreeView.h; sourceTree = "<group>"; };
+		FC128FED64A3CBD7CE3E6067A9E6AA78 /* Pods-HyperTreeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HyperTreeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FD47E2CFDD903A5FFF2B62A824444395 /* Pods-HyperTreeView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HyperTreeView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEA04056A6C7C17387A552D2F84E1CC4 /* Pods_HyperTreeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HyperTreeView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		253EE3148C4060A140671D0C92E7A3DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1440BF8B4611BFCCE63D9C3D4FC9E097 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF6361B05C8B73075C219384C7BAA426 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FA6BBD0740CAD349E82CF58BDCB6713 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8F138F512DA3B4051CDDE926F161A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1076AEEBEEDDCD81FB3BF2C66F3A5853 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02E2B6040681DFD16CAB6D8FBEC5F721 /* Pods-HyperTreeView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				902219B34C3E5C5DB0A5D54E4DE3A38B /* Info.plist */,
+				31E320814125FC2B0A061D4441577722 /* Pods-HyperTreeView_Example.modulemap */,
+				19F8B7E2AA0C35D11222650189F54D48 /* Pods-HyperTreeView_Example-acknowledgements.markdown */,
+				4456078A4C6106D176CCB26EDC7E16CC /* Pods-HyperTreeView_Example-acknowledgements.plist */,
+				055E2EB1763D1F4BE9FA2A6096EF85CE /* Pods-HyperTreeView_Example-dummy.m */,
+				8ABAF5E8D5B073F3C3605DF99F31CD68 /* Pods-HyperTreeView_Example-frameworks.sh */,
+				5BD1C319B3F6BDA65DB94CC5EA236205 /* Pods-HyperTreeView_Example-resources.sh */,
+				C8ABEEA81D0FCF38C5732C2B97813A6F /* Pods-HyperTreeView_Example-umbrella.h */,
+				FC128FED64A3CBD7CE3E6067A9E6AA78 /* Pods-HyperTreeView_Example.debug.xcconfig */,
+				1FD9A9996D09F9FE3E82C557DDC49013 /* Pods-HyperTreeView_Example.release.xcconfig */,
+			);
+			name = "Pods-HyperTreeView_Example";
+			path = "Target Support Files/Pods-HyperTreeView_Example";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5D364C5FABEC12FE7C528A2C8BA0A802 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				02E2B6040681DFD16CAB6D8FBEC5F721 /* Pods-HyperTreeView_Example */,
+				5F081B4F57C0FB874A06F95B48D7565C /* Pods-HyperTreeView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5F081B4F57C0FB874A06F95B48D7565C /* Pods-HyperTreeView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8B61A774812ACA390A9C9C02911AD988 /* Info.plist */,
+				AB4786EC086886562E24E5BFF95F5EEE /* Pods-HyperTreeView_Tests.modulemap */,
+				FD47E2CFDD903A5FFF2B62A824444395 /* Pods-HyperTreeView_Tests-acknowledgements.markdown */,
+				478761C58C07CDE2305950CB7B489A48 /* Pods-HyperTreeView_Tests-acknowledgements.plist */,
+				E3438E922541B19192704C28EF490FFF /* Pods-HyperTreeView_Tests-dummy.m */,
+				4F0E018854337B0E726595CBF9DFD3EE /* Pods-HyperTreeView_Tests-frameworks.sh */,
+				56EDBE96286D700726FAD62B8764478A /* Pods-HyperTreeView_Tests-resources.sh */,
+				44DB9264FA62106ECF5A16BFDCF4BC71 /* Pods-HyperTreeView_Tests-umbrella.h */,
+				7B7CC0A9C6A71DEA65E6C5AE2DE57F7D /* Pods-HyperTreeView_Tests.debug.xcconfig */,
+				D72C391633C4990553238548ED42CD53 /* Pods-HyperTreeView_Tests.release.xcconfig */,
+			);
+			name = "Pods-HyperTreeView_Tests";
+			path = "Target Support Files/Pods-HyperTreeView_Tests";
+			sourceTree = "<group>";
+		};
+		6229F31E7DAA4ED19F2733A02D0BF2E9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3EC561A9B5A033154B8C09AA277DC54 /* HyperTreeView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6229F31E7DAA4ED19F2733A02D0BF2E9 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				DB8C1E5B42DF9A5E9233B8E0A956A4B9 /* Products */,
+				5D364C5FABEC12FE7C528A2C8BA0A802 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		806CF6C4A092852B9D38F7EA9FC8FA18 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				253EE304C99E07888E3B4831799C72E1 /* HyperTreeView.modulemap */,
+				0EC28429FFF63326CC0DA334EE52B1C1 /* HyperTreeView.xcconfig */,
+				3DA75BEB60745B2A42739320F717DCD4 /* HyperTreeView-dummy.m */,
+				68661447FB60D086B325685A47A1D208 /* HyperTreeView-prefix.pch */,
+				8BA49784E6F1290DF8482725FFE09E6B /* HyperTreeView-umbrella.h */,
+				98F695C7AB8224AB92F9DAB2C3C37FEA /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HyperTreeView";
+			sourceTree = "<group>";
+		};
+		8A650CFF41EA47A577C20B5512CEB136 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F5E4DDF9312F319072D164BC0E1FC13A /* HyperTreeView.h */,
+				BB1DE4FB0D3B74896C2E7C10FB1A2D07 /* HyperTreeView.m */,
+				1540166C66E44141F8576777BC2CC823 /* HyperTreeViewNode.h */,
+				A1775589B3E47CF5F99D98DAA4D76CF8 /* HyperTreeViewNode.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A8AF2D50FE5B32A25EDC01F5DD71FB84 /* HyperTreeView */ = {
+			isa = PBXGroup;
+			children = (
+				8A650CFF41EA47A577C20B5512CEB136 /* Classes */,
+			);
+			path = HyperTreeView;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3EC561A9B5A033154B8C09AA277DC54 /* HyperTreeView */ = {
+			isa = PBXGroup;
+			children = (
+				A8AF2D50FE5B32A25EDC01F5DD71FB84 /* HyperTreeView */,
+				806CF6C4A092852B9D38F7EA9FC8FA18 /* Support Files */,
+			);
+			name = HyperTreeView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DB8C1E5B42DF9A5E9233B8E0A956A4B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C4930BAD01633DADFA696B49254E80E /* HyperTreeView.framework */,
+				FEA04056A6C7C17387A552D2F84E1CC4 /* Pods_HyperTreeView_Example.framework */,
+				749B6EDCA27C57C050F7CF91C20DB6E7 /* Pods_HyperTreeView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		37DC00E3B0655FFEAD11CE3C4A277077 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC524F2CC2DC713A3FA9AD4B25A86D0A /* Pods-HyperTreeView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F7C8CCFD4532A95DB9CA93D339C038 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA34E2B3CAD3621BF3AF495400AC04A /* HyperTreeView-umbrella.h in Headers */,
+				A5BB94362E99DBCD54E9CF9169FB7A76 /* HyperTreeView.h in Headers */,
+				06B8ADD3EF18012106DBCF54A789C1A4 /* HyperTreeViewNode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C86E4E9D449ACAAF4A622DE64BE45772 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				987849EF31B01ABC247EFF3994A955AE /* Pods-HyperTreeView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A7F0A02A88ED81F773DD35178DDD2774 /* Pods-HyperTreeView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B18EE3D25D373D0BDF4227F16B9CE53 /* Build configuration list for PBXNativeTarget "Pods-HyperTreeView_Tests" */;
+			buildPhases = (
+				BE1E3E20061C3048BB7E809A6F428101 /* Sources */,
+				E8F138F512DA3B4051CDDE926F161A6E /* Frameworks */,
+				37DC00E3B0655FFEAD11CE3C4A277077 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-HyperTreeView_Tests";
+			productName = "Pods-HyperTreeView_Tests";
+			productReference = 749B6EDCA27C57C050F7CF91C20DB6E7 /* Pods_HyperTreeView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BFBD9D1B36AE492A74B8DBE066B2EF3B /* HyperTreeView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA5C963ABC33F14A7E9B8D76737506C3 /* Build configuration list for PBXNativeTarget "HyperTreeView" */;
+			buildPhases = (
+				7E29AB2B099AE3C2BA8489043C763A9E /* Sources */,
+				253EE3148C4060A140671D0C92E7A3DA /* Frameworks */,
+				B8F7C8CCFD4532A95DB9CA93D339C038 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HyperTreeView;
+			productName = HyperTreeView;
+			productReference = 5C4930BAD01633DADFA696B49254E80E /* HyperTreeView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F75B3135A20731AF0B5024B5432E28E5 /* Pods-HyperTreeView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5634B7E51145B384F1F944B62E4DC6E5 /* Build configuration list for PBXNativeTarget "Pods-HyperTreeView_Example" */;
+			buildPhases = (
+				7CCBB045BF67C5830BC85281F3C7E6F6 /* Sources */,
+				AF6361B05C8B73075C219384C7BAA426 /* Frameworks */,
+				C86E4E9D449ACAAF4A622DE64BE45772 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2689DE424546F1F9BA0741798AE0C531 /* PBXTargetDependency */,
+			);
+			name = "Pods-HyperTreeView_Example";
+			productName = "Pods-HyperTreeView_Example";
+			productReference = FEA04056A6C7C17387A552D2F84E1CC4 /* Pods_HyperTreeView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DB8C1E5B42DF9A5E9233B8E0A956A4B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFBD9D1B36AE492A74B8DBE066B2EF3B /* HyperTreeView */,
+				F75B3135A20731AF0B5024B5432E28E5 /* Pods-HyperTreeView_Example */,
+				A7F0A02A88ED81F773DD35178DDD2774 /* Pods-HyperTreeView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CCBB045BF67C5830BC85281F3C7E6F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC6C67E383F3AC0A62057E3DC1B46773 /* Pods-HyperTreeView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E29AB2B099AE3C2BA8489043C763A9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFDADD24C92C3F2B898BC27A16FAD1D3 /* HyperTreeView-dummy.m in Sources */,
+				9272B96CE531EC2D9C6EC6D44894D21A /* HyperTreeView.m in Sources */,
+				3E8FFB2D88F922336B7F23706FB0EA37 /* HyperTreeViewNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE1E3E20061C3048BB7E809A6F428101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D705B85BB25F594E06C165F862AE818B /* Pods-HyperTreeView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2689DE424546F1F9BA0741798AE0C531 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HyperTreeView;
+			target = BFBD9D1B36AE492A74B8DBE066B2EF3B /* HyperTreeView */;
+			targetProxy = FD49AA31F77061BB414570D206D92C3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11322233D459B889C6177472F7A17FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EC28429FFF63326CC0DA334EE52B1C1 /* HyperTreeView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HyperTreeView/HyperTreeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HyperTreeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HyperTreeView/HyperTreeView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = HyperTreeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3A828D9AAC7CEF21E3DAE322C7B16997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B7CC0A9C6A71DEA65E6C5AE2DE57F7D /* Pods-HyperTreeView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperTreeView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperTreeView_Tests/Pods-HyperTreeView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HyperTreeView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79115F7F2FD6392D0D276EDC09D9CB85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EC28429FFF63326CC0DA334EE52B1C1 /* HyperTreeView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HyperTreeView/HyperTreeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HyperTreeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HyperTreeView/HyperTreeView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HyperTreeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DD73EA1B1FA30735F61D839C9F46114 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC128FED64A3CBD7CE3E6067A9E6AA78 /* Pods-HyperTreeView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperTreeView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperTreeView_Example/Pods-HyperTreeView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HyperTreeView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A84092763CFE394CFA4C192C2045DCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D72C391633C4990553238548ED42CD53 /* Pods-HyperTreeView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperTreeView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperTreeView_Tests/Pods-HyperTreeView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HyperTreeView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F010FFB5445AF30A715816A1F2B53DA5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FD9A9996D09F9FE3E82C557DDC49013 /* Pods-HyperTreeView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-HyperTreeView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HyperTreeView_Example/Pods-HyperTreeView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HyperTreeView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B18EE3D25D373D0BDF4227F16B9CE53 /* Build configuration list for PBXNativeTarget "Pods-HyperTreeView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A828D9AAC7CEF21E3DAE322C7B16997 /* Debug */,
+				A84092763CFE394CFA4C192C2045DCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5634B7E51145B384F1F944B62E4DC6E5 /* Build configuration list for PBXNativeTarget "Pods-HyperTreeView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DD73EA1B1FA30735F61D839C9F46114 /* Debug */,
+				F010FFB5445AF30A715816A1F2B53DA5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA5C963ABC33F14A7E9B8D76737506C3 /* Build configuration list for PBXNativeTarget "HyperTreeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79115F7F2FD6392D0D276EDC09D9CB85 /* Debug */,
+				11322233D459B889C6177472F7A17FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

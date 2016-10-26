@@ -1,0 +1,6 @@
+framework module HyperTreeView {
+  umbrella header "HyperTreeView-umbrella.h"
+
+  export *
+  module * { export * }
+}

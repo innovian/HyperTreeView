@@ -1,0 +1,16 @@
+PODS:
+  - HyperTreeView (0.1.0)
+
+DEPENDENCIES:
+  - HyperTreeView (from `../`)
+
+EXTERNAL SOURCES:
+  HyperTreeView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HyperTreeView: f806dee0e698583cf298b86b68ba2d238bbfb0e6
+
+PODFILE CHECKSUM: 2b8f7e9a572ccdb8eb4fcf081d20bbec3bae002c
+
+COCOAPODS: 1.1.0.rc.2

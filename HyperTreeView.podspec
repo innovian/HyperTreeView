@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HyperTreeView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of HyperTreeView.'
+  s.summary          = 'A lightweight customizable and easy to use tree view, useful for visualizing hierarchical structures.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +18,15 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A lightweight customizable and easy to use tree view, useful for visualizing hierarchical structures. It also supports expanding and collapsing nodes.
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/HyperTreeView'
+  s.homepage         = 'https://github.com/innovian/HyperTreeView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'H.Vakilian' => 'xerxes235@yahoo.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/HyperTreeView.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Innovian' => 'gitsupport@innovian.com' }
+  s.source           = { :git => 'https://github.com/innovian/HyperTreeView.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/innovian'
 
   s.ios.deployment_target = '8.0'
 
