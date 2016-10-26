@@ -22,7 +22,7 @@ pod "HyperTreeView"
 
 ## Author
 
-H.Vakilian, xerxes235@yahoo.com
+Innovian, gitsupport@innovian.com
 
 ## License
 
