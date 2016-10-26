@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HyperTreeView_Example' do
+  pod 'HyperTreeView', :path => '../'
+
+  target 'HyperTreeView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
