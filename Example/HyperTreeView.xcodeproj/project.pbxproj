@@ -20,6 +20,8 @@
 		037DC8F11DC0CDF100AA4FD4 /* UIView+SDCAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 037DC8EB1DC0CDF100AA4FD4 /* UIView+SDCAutoLayout.m */; };
 		037DC8F21DC0CDF100AA4FD4 /* NSObject+jsonDic.m in Sources */ = {isa = PBXBuildFile; fileRef = 037DC8ED1DC0CDF100AA4FD4 /* NSObject+jsonDic.m */; };
 		037DC8F31DC0CDF100AA4FD4 /* NSObject+jsonStr.m in Sources */ = {isa = PBXBuildFile; fileRef = 037DC8EF1DC0CDF100AA4FD4 /* NSObject+jsonStr.m */; };
+		52F2E7EA1DC21D7300F58F06 /* eyesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52F2E7E91DC21D7300F58F06 /* eyesViewController.m */; };
+		52F2E7EC1DC2221400F58F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52F2E7EB1DC2221400F58F06 /* LaunchScreen.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -70,6 +72,9 @@
 		0F5723E0763509B60B9C5B8B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		210D98129ED9F83B505474E7 /* Pods-HyperTreeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperTreeView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HyperTreeView_Example/Pods-HyperTreeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4495A2E5C8BAC9C6B4063636 /* Pods-HyperTreeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HyperTreeView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HyperTreeView_Tests/Pods-HyperTreeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		52F2E7E81DC21D7300F58F06 /* eyesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eyesViewController.h; sourceTree = "<group>"; };
+		52F2E7E91DC21D7300F58F06 /* eyesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = eyesViewController.m; sourceTree = "<group>"; };
+		52F2E7EB1DC2221400F58F06 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		592ADF36A7DC88C9810E45B1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* HyperTreeView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HyperTreeView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -199,6 +204,9 @@
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				037DC8DD1DC0CD5300AA4FD4 /* MySampleView.h */,
 				037DC8DE1DC0CD5300AA4FD4 /* MySampleView.m */,
+				52F2E7E81DC21D7300F58F06 /* eyesViewController.h */,
+				52F2E7E91DC21D7300F58F06 /* eyesViewController.m */,
+				52F2E7EB1DC2221400F58F06 /* LaunchScreen.storyboard */,
 				037DC8F41DC0CDF500AA4FD4 /* other */,
 				037DC8DC1DC0CC1700AA4FD4 /* images (subject to copyright) */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -309,9 +317,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = example;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = H.Vakilian;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = V85CZX4H3H;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -350,6 +361,7 @@
 				037DC8D51DC0CC1100AA4FD4 /* 2.jpg in Resources */,
 				037DC8D61DC0CC1100AA4FD4 /* 3.jpg in Resources */,
 				037DC8DA1DC0CC1100AA4FD4 /* 7.jpg in Resources */,
+				52F2E7EC1DC2221400F58F06 /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -438,7 +450,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		DED0C45D14EFCCDB92341119 /* [CP] Check Pods Manifest.lock */ = {
@@ -453,7 +465,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -467,6 +479,7 @@
 				6003F59E195388D20070C39A /* exampleAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* exampleViewController.m in Sources */,
 				037DC8F31DC0CDF100AA4FD4 /* NSObject+jsonStr.m in Sources */,
+				52F2E7EA1DC21D7300F58F06 /* eyesViewController.m in Sources */,
 				037DC8F21DC0CDF100AA4FD4 /* NSObject+jsonDic.m in Sources */,
 				037DC8F01DC0CDF100AA4FD4 /* helper.m in Sources */,
 				037DC8F11DC0CDF100AA4FD4 /* UIView+SDCAutoLayout.m in Sources */,
@@ -525,14 +538,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -565,13 +583,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -591,6 +614,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = V85CZX4H3H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HyperTreeView/HyperTreeView-Prefix.pch";
 				INFOPLIST_FILE = "HyperTreeView/HyperTreeView-Info.plist";
@@ -607,6 +631,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = V85CZX4H3H;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HyperTreeView/HyperTreeView-Prefix.pch";
 				INFOPLIST_FILE = "HyperTreeView/HyperTreeView-Info.plist";

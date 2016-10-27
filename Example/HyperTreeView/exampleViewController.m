@@ -11,7 +11,7 @@
 #import "UIView+SDCAutoLayout.h"
 #import "MySampleView.h"
 #import "HyperTreeView.h"
-
+#import "eyesViewController.h"
 
 @interface exampleViewController ()
 {
@@ -24,14 +24,61 @@
 
 -(void)HyperTreeViewDidTouchItemAtPath:(NSString *)path withObject:(nullable id)object options:(NSDictionary*)options
 {
-	if ([options[@"firstTime"] boolValue])
+    if ([object[@"name"]  isEqual: @"shadow"])
+    {
+        NSLayoutConstraint* shadowHeightConstant = object[@"shadowHeightConstant"];
+        if ([object[@"isEnlarged"] boolValue])
+        {
+            shadowHeightConstant.constant = 100;
+            object[@"isEnlarged"] = @(NO);
+        }
+        else
+        {
+            shadowHeightConstant.constant = 200;
+            object[@"isEnlarged"] = @(YES);
+        }
+        
+        [UIView animateWithDuration:.3 animations:^{
+            [treeView layoutIfNeeded];
+        }];
+        
+    }
+    else if([object[@"name"] isEqualToString:@"skinCare"])
+    {
+        NSLayoutConstraint* skinCareHeightConstant = object[@"skinCareHeightConstant"];
+        if ([object[@"isEnlarged"] boolValue])
+        {
+            skinCareHeightConstant.constant= 100;
+            object[@"isEnlarged"] = @(NO);
+        }
+        else
+        {
+            skinCareHeightConstant.constant= 200;
+            object[@"isEnlarged"] = @(YES);
+        }
+        [UIView animateWithDuration:1.0 delay:0 usingSpringWithDamping:.3 initialSpringVelocity:.3 options:0 animations:^{
+            [treeView layoutIfNeeded];
+        } completion:nil];
+        
+    }
+    else if([object[@"name"] isEqualToString:@"eyes"])
+    {
+        UIStoryboard* mainStoryboard1 = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+        __strong eyesViewController* eyesViewController = [mainStoryboard1 instantiateViewControllerWithIdentifier:@"eyesViewController"];
+        [self.navigationController pushViewController:eyesViewController animated:YES];
+        
+        
+    }
+    else if ([options[@"firstTime"] boolValue])
 	{
+        
 		NSDictionary* dic = object;
 		
 		NSString* urlPath = [NSString stringWithFormat:@"featurettes/%@", dic[@"id"]];
 		NSURLSessionTask* task = [helper serverGetWithPath:urlPath completion:^(long response_code, id obj) {
 			
 			dispatch_async(dispatch_get_main_queue(), ^{
+                
 				if (response_code == 200)
 				{
 					NSMutableArray* items = [NSMutableArray new];
@@ -43,6 +90,7 @@
 					
 					[treeView loadItemsForPath:path items:items options:HyperTreeViewOptionDoNotExpand];
 					[treeView expandNodeAtPath:path];
+                    
 				}
 			});
 			
@@ -54,6 +102,8 @@
 	{
 		if (![options[@"isExpanded"] boolValue])
 			[treeView expandNodeAtPath:path];
+        
+
 		else
 			[treeView collapseNodeAtPath:path];
 	}
@@ -62,6 +112,8 @@
 
 - (void)viewDidLoad {
 	[super viewDidLoad];
+    
+//    return;
 	// Do any additional setup after loading the view, typically from a nib.
 	
 	dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(4 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
@@ -200,21 +252,21 @@
 	
 	MySampleView* skinCareView = [MySampleView new];
 	skinCareView.translatesAutoresizingMaskIntoConstraints = NO;
-	[skinCareView sdc_pinHeight:150];
+    NSLayoutConstraint* skinCareHeightConstant = [skinCareView sdc_pinHeight:100];
 	skinCareView.imageView.image = [UIImage imageNamed:@"2.jpg"];
 	skinCareView.label.text = @"SKIN CARE";
 	UIColor* skinCareColor = [UIColor colorWithRed:0.942 green:0.902 blue:0.893 alpha:1];
 	skinCareView.hairLine.backgroundColor = skinCareColor;
-	[items addObject:@{@"view": skinCareView, @"type": @"customView", @"object": @{@"name": @"skinCare"}, @"contentBackgroundColor": skinCareColor}];
+	[items addObject:@{@"view": skinCareView, @"type": @"customView", @"object": [@{@"name": @"skinCare", @"skinCareHeightConstant": skinCareHeightConstant, @"isEnlarged": @(NO) } mutableCopy], @"contentBackgroundColor": skinCareColor}];
 	
 	MySampleView* shadowView = [MySampleView new];
 	shadowView.translatesAutoresizingMaskIntoConstraints = NO;
-	[shadowView sdc_pinHeight:150];
+    NSLayoutConstraint* shadowHeightConstant = [shadowView sdc_pinHeight:100];
 	shadowView.imageView.image = [UIImage imageNamed:@"3.jpg"];
 	shadowView.label.text = @"SHADOW";
 	UIColor* shadowColor =[UIColor colorWithRed:0.693 green:0.233 blue:0.443 alpha:1];
 	shadowView.hairLine.backgroundColor = shadowColor;
-	[items addObject:@{@"view": shadowView, @"type": @"customView", @"object": @{@"name": @"shadow"}, @"contentBackgroundColor": shadowColor}];
+	[items addObject:@{@"view": shadowView, @"type": @"customView", @"object": [@{@"name": @"shadow", @"shadowHeightConstant": shadowHeightConstant, @"isEnlarged": @(NO) } mutableCopy], @"contentBackgroundColor": shadowColor }];
 	
 	MySampleView* powderView = [MySampleView new];
 	powderView.translatesAutoresizingMaskIntoConstraints = NO;
